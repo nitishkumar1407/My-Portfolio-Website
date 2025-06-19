@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Nitish Kumar</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+      <div class="logo">Nitish Kumar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/Profile Pic from Ade-mir Portfolio..png" alt="Nitish Kumar profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Nitish Kumar</h1>
+      <p class="section__text__p2">AI & ML Innovator</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Nitish Resume new.pdf', '_blank')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/LinkedIn Icon.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/nitish07kumar/'" />
+        <img src="./assets/GitHub Asset (1).png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/nitishkumar1407/'" />
+      </div>
+    </div>
+   
+  </section>
+
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/About Picture..png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/Experience from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>5+projects in AI & ML<br />Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/Education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Tech. Bachelors Degree</p>
+          </div>
+        </div>
+
+        <div class="text-container">
+          <p>
+            👨‍💻 "Code. Compile. Conquer."
+
+            <br>
+            <br>
+
+            Hii I'm 2nd year Computer science Engineering student at LNCT
+            Group of Colleges. Technology excites me and Cetain skills that I
+            have been working on is Web Development (Front-end and Backend)
+            ,JAVA ,Python and AI & Machine Learning also. I am a highly
+            motivated and curious student specializing in Artificial
+            Intelligence and Machine Learning.  I actively
+            explore AI research papers, Kaggle competitions, and open-source
+            contributions to sharpen my practical and theoretical
+            understanding.
+
+            My goal is to apply AI to impactful fields like
+            healthcare, energy forecasting, and automation, and contribute to
+            building ethical, efficient, and scalable AI systems.
+
+            <br>
+
+            🚀 Always open to collaboration, internships, and opportunities to
+            grow in the AI/ML field. Let’s connect!
+
+            <br>
+          <p>Outside of tech world , I am cricket lover, Fitness (Gym) ,
+            Reading books and last exploring new places includes travelling
+            with friends and family.</p>
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/Arrow from Portfolio Tutorial (1).png" alt="Arrow icon" class="icon arrow"
+      onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend & Backend </h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Express.JS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node.JS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> MongoDB</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Extra</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Streamlit</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tkinter</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> MySQL </h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> Artificial Intelligence </h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> Machine Learning </h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+    
+    <div class="experience-details-container">
+    
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Hackathons </h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Code for change-AI Hackathon</h3>
+                <p>2025</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Amplicode Hackathon</h3>
+                <p>2025</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/Checkmark from Portfolio Tutorial.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>IITB Fossile Hackathon</h3>
+                <p>2024</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        </div>
+</section>
+
+    <img src="./assets/Arrow from Portfolio Tutorial (1).png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project 1.jpeg" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One- Energy Forecasting Using ML</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nitishkumar1407/Energy_Forecasting_Using-ML-Model/'">
+              Github
+            </button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project 2.jpeg" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two-Health Diagnosis System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nitishkumar1407/Health-Diagnosis-System/'">
+              Github
+            </button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project 3.jpeg" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three-Desktop Voice Assistant </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nitishkumar1407/Desktop-Assistant/'">
+              Github
+            </button>
+            
+          </div>
+      
+      </div>
+    </div>
+    <div>
+      
+    </div>
+
+  
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project 4.jpeg" alt="Project 4" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Four- Spam Mail Prediction System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nitishkumar1407/Spam-Mail-Prediction/'">
+              Github
+            </button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project 5.jpeg" alt="Project 5" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Five-Attendance-System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nitishkumar1407/Attendance-System/'">
+              Github
+            </button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project 6.png" alt="Project 6" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Six-College Website </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Om-Pramod-Kumar/College-Website/'">
+              Github
+            </button>
+            
+          </div>
+      
+      </div>
+    </div>
+    <div>
+      
+    </div>
+    <img src="./assets/Arrow from Portfolio Tutorial (1).png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/Email Asset.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">nitishkumar7791@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/LinkedIn Icon.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/nitish07kumar">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2025@Nitish kumar. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

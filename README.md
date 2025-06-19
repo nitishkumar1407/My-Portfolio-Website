@@ -2,4 +2,4 @@
 
 
 > **Hosted Live At:**  
-> 🔗 [https://om-pramod-kumar.github.io/College-Website/](https://om-pramod-kumar.github.io/College-Website/)
+> 🔗 [nitish07portfolio.netlify.app)

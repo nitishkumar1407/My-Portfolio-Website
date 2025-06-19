@@ -2,4 +2,4 @@
 
 
 > **Hosted Live At:**  
-> 🔗 [nitish07portfolio.netlify.app)
+> 🔗 https://nitish07portfolio.netlify.app/
